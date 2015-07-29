@@ -1,0 +1,19 @@
+{
+  "name": "ngBarebone",
+  "version": "0.2.0",
+  "description": "a simple project scaffold for prototyping angularjs projects",
+  "author": "Pongstr Ordillo",
+  "email": "twiz.tickler@gmail.com",
+  "private": "true",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "octicons": "~2.4.1",
+    "angular": "~1.4.3",
+    "angular-animate": "~1.4.3",
+    "angular-bootstrap": "~0.13.0",
+    "angular-ui-router": "~0.2.15",
+    "angular-resource": "~1.4.3",
+    "angular-cookies": "~1.4.3"
+  }
+}

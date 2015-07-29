@@ -1,0 +1,77 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+
+  <meta charset="utf-8">
+
+  <title>AngularJS Boilerplate</title>
+
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- build:remove -->
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/assets/vendor/octicons/octicons/octicons.css">
+  <!-- /build -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body ng-controller="AppCtrl">
+
+  <ui-view></ui-view>
+
+  <!-- AngularJS -->
+  <!-- build:js //ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js -->
+  <script src="/assets/vendor/angular/angular.min.js"></script>
+  <!-- /build -->
+
+  <!-- build:js //ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.min.js -->
+  <script src="/assets/vendor/angular-animate/angular-animate.min.js"></script>
+  <!-- /build -->
+
+  <!-- build:js //ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-cookies.min.js -->
+  <script src="/assets/vendor/angular-cookies/angular-cookies.min.js"></script>
+  <!-- /build -->
+
+  <!-- build:js //ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-resource.min.js -->
+  <script src="/assets/vendor/angular-resource/angular-resource.min.js"></script>
+  <!-- /build -->
+
+  <!-- build:js //cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js -->
+  <script src="/assets/vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <!-- /build -->
+
+  <!-- build:js //cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap.min.js-->
+  <script src="/assets/vendor/angular-bootstrap/ui-bootstrap.min.js"></script>
+  <!-- /build -->
+
+  <!-- build:js //cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.min.js-->
+  <script src="/assets/vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <!-- /build -->
+
+  <!-- build:template
+    <script src="<%= appjs %>"></script>
+    <script src="<%= modulejs %>"></script>
+  /build -->
+
+  <!-- build:remove -->
+  <script src="/scripts/app.js"></script>
+  <script src="/scripts/controller.js"></script>
+  <script src="/scripts/services.js"></script>
+  <script src="/scripts/routes.js"></script>
+  <!-- /build -->
+
+
+</body>
+</html>
